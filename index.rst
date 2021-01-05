@@ -51,6 +51,17 @@
    Atlassian is discontinuing on-premise server sales 2Feb2021 and ending support 2Feb2024. RubinObs uses Crowd, Confluence, and Jira, all of which are affected.
 
 .. Add content here.
+   Questions for Discussion
+   ========================
+   1. Should Vera C. Rubin Observator (RubinObs) migrate from on-premise Jira to cloud Jira?
+   2. If Jira is moved to the cloud, should Crowd and Confluence migrate as well?
+   3. Who are the group and individual stakeholders?
+   
+   Current Answers before Discussion
+   =================================
+   1. To be determined.
+   2. Assumed Yes.
+   3. Rubin Construction (PMO); Rubin Operations; End Users; Project Owners: DM, SE, IT, TSS, Travel, Publications; NOIR(?);    
 .. Do not include the document title (it's automatically added from metadata.yaml).
 
 .. .. rubric:: References
