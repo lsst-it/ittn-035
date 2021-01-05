@@ -65,9 +65,8 @@
    
    Discussion Topics
    =================
-   Apps (aka add-ons or plugins) used by stakeholders not suppored in the cloud
-   
-   Meta-Data stored in the database related to disabled, obsolete yet enabled, or removed apps
+ - Apps (aka add-ons or plugins) used by stakeholders not suppored in the cloud
+ - Meta-Data stored in the database related to disabled, obsolete yet enabled, or removed apps
    
    Existing Project Specific Workflows
    
