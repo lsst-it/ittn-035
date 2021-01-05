@@ -67,33 +67,22 @@
    =================
  - Apps (aka add-ons or plugins) used by stakeholders not suppored in the cloud
  - Meta-Data stored in the database related to disabled, obsolete yet enabled, or removed apps
-   
-   Existing Project Specific Workflows
-   
-   Altering or Creating Projects, Dashboards, Data fields, Permissions
-   
-   User Directory Services available with cloud version
-   
-   License Model and Estimated Upfront and Recurring Costs
-   
-   Migration to Cloud
-   
-   Migration or Integration with NOIR
-   
-   Those Invovled: Stakeholders; more specifically, groups or individual tasked with project or team based assessment and audit of how apps are currently used; tasked with preparing change managent for each project; testing and validating the migration; performing the migration and cut-over
-   
-   Backup and Recovery related to configuration mistakes or other changes
-   
-   The domain to register and what additional, yet to be acquired, domains
-   
-   Organization and Project Management
-   
-   Communicating Reason and Process to Migrate to Set Stakeholder Expectations
+ - Existing Project Specific Workflows
+ - Altering or Creating Projects, Dashboards, Data fields, Permissions
+ - User Directory Services available with cloud version
+ - License Model and Estimated Upfront and Recurring Costs
+ - Migration to Cloud
+ - Migration or Integration with NOIR
+ - Those Invovled: Stakeholders; more specifically, groups or individual tasked with project or team based assessment and audit of how apps are currently used; tasked with preparing change managent for each project; testing and validating the migration; performing the migration and cut-over
+ - Backup and Recovery related to configuration mistakes or other changes
+ - The domain to register and what additional, yet to be acquired, domains
+ - Organization and Project Management
+ - Communicating Reason and Process to Migrate to Set Stakeholder Expectations
    
 .. Do not include the document title (it's automatically added from metadata.yaml).
 
 .. .. rubric:: References
-https://www.atlassian.com/blog/announcements/journey-to-cloud
+ - https://www.atlassian.com/blog/announcements/journey-to-cloud
 
 https://www.atlassian.com/migration/faqs
 
