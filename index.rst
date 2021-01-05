@@ -95,41 +95,59 @@ Can it be transferred?
 
 Existing Jira per Project Specific Workflows
 --------------------------------------------
+Stakeholders will need to review specific workflows to ensure those workflows will operate correctly in a cloud instance.
+Stakeholders who access projects directly from MySQL queries need to have updated information to continue with the method, if it is possible.
 
 Altering or Creating Projects, Dashboards, Data fields, Permissions
 -------------------------------------------------------------------
+Desired configuration may not migrate requiring additional work to recreate various customizations
 
 User Directory Services available with cloud version
 -----------------------------------------------------
+Our current Jira configuration interacts with Crowd, which interacts with MS Active Directory (AD-LSST) aka LSST Creds or LDAP Account.
+Will we continue with this configuration and what of NOIR or other directory services?
 
 License Model and Estimated Upfront and Recurring Costs
 -------------------------------------------------------
+Wil O'Mullane will check with Atlassian for "free" version. 
+Costs should be considered to prepare for any changes in the fee structures. Such changes have occurred with other vendors.
 
 Migration to Cloud
 ------------------
+The production Jira version satisfies the requirement to migrate. However, there are other clean up tasks outlined in the Jira Links.
+There are various outlined paths from Move it All to One Project at a Time.
+Will URLs be different?
+What applications are affected by an URLchanges, i.e. LS.ST
 
 Migration or Integration with NOIR
 ----------------------------------
+NOIR has an existing instance of Jira (need to confirm). 
+What considerations should be made to prepare for a migration to or integration with NOIR's instance?
 
 Those Involved
 ---------------
-
-Backup and Recovery related to configuration mistakes or other changes
-----------------------------------------------------------------------
-
-The domain to register and what additional, yet to be acquired, domains
------------------------------------------------------------------------
+Declare representatives from the groups of stakeholders and those directly involved in the reviewing, testing and actual work for a successful migration.
 
 Organization and Project Management
 -----------------------------------
+Is there a desire by Management of either Construction or Operations to implement any changes?
 
 Communicating Reason and Process to Migrate to Set Stakeholder Expectations
 ---------------------------------------------------------------------------
+Communication channels need to be created and managed for the work performed and end-users of the new system.
+Any required training should have materials prepared and released in advance of the cut-over.
 
+Backup and Recovery related to configuration mistakes or other changes
+----------------------------------------------------------------------
+While Atlassian is providing a service and is responsible for maintaining our cloud site, accidental changes or a desire to move away from the service need to be considered. 
 
+The domain to register and what additional, yet to be acquired, domains
+-----------------------------------------------------------------------
+jira.lsstcorp.org is the primary URL. jira.lsst.org is ready to be implemented after Nginx and Jira are altered. 
+Will some sort of Rubin URL be used?
 
 .. .. rubric:: References
-Links to Material
+Links
 =================
 - https://www.atlassian.com/blog/announcements/journey-to-cloud
 - https://www.atlassian.com/migration/faqs
