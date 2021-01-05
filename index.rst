@@ -56,7 +56,7 @@
 .. Do not include the document title (it's automatically added from metadata.yaml).
 Questions for Discussion
 ========================
-   1. Should Vera C. Rubin Observator (RubinObs) migrate from on-premise Jira to cloud Jira?
+   1. Should Vera C. Rubin Observatory migrate from on-premise Jira to cloud Jira?
    2. If Jira is moved to the cloud, should Crowd and Confluence migrate as well?
    3. Who are the group and individual stakeholders?
    
@@ -70,7 +70,7 @@ Discussion Topics
 =================
 - Apps (aka add-ons or plugins) used by stakeholders not suppored in the cloud
 - Meta-Data stored in the database related to disabled, obsolete yet enabled, or removed apps
-- Existing Project Specific Workflows
+- Existing Jira per Project Specific Workflows
 - Altering or Creating Projects, Dashboards, Data fields, Permissions
 - User Directory Services available with cloud version
 - License Model and Estimated Upfront and Recurring Costs
@@ -82,7 +82,55 @@ Discussion Topics
 - Organization and Project Management
 - Communicating Reason and Process to Migrate to Set Stakeholder Expectations
 
+Apps
+----
+Stakeholders will need to audit their projects for apps (aka add-ons or plugins) currently in use that will not exist in the cloud version.
+Solutions or mitigation may be required.
+
+Meta-Data
+---------
+Some stakeholders may have data within the Jira database related to apps that have been disabled or removed. 
+Does the data need to be transferred?
+Can it be transferred?
+
+Existing Jira per Project Specific Workflows
+--------------------------------------------
+
+Altering or Creating Projects, Dashboards, Data fields, Permissions
+-------------------------------------------------------------------
+
+User Directory Services available with cloud version
+-----------------------------------------------------
+
+License Model and Estimated Upfront and Recurring Costs
+-------------------------------------------------------
+
+Migration to Cloud
+------------------
+
+Migration or Integration with NOIR
+----------------------------------
+
+Those Involved
+---------------
+
+Backup and Recovery related to configuration mistakes or other changes
+----------------------------------------------------------------------
+
+The domain to register and what additional, yet to be acquired, domains
+-----------------------------------------------------------------------
+
+Organization and Project Management
+-----------------------------------
+
+Communicating Reason and Process to Migrate to Set Stakeholder Expectations
+---------------------------------------------------------------------------
+
+
+
 .. .. rubric:: References
+Links to Material
+=================
 - https://www.atlassian.com/blog/announcements/journey-to-cloud
 - https://www.atlassian.com/migration/faqs
 - https://www.atlassian.com/migration/cloud
