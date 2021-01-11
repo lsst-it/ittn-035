@@ -48,7 +48,7 @@
 
    **This technote is not yet published.**
 
-   Atlassian is discontinuing on-premise server sales 2Feb2021 and ending support 2Feb2024. RubinObs uses Crowd, Confluence, and Jira, all of which are affected.
+   Atlassian is discontinuing on-premise server sales 2Feb2021 and ending support 2Feb2024. RubinObs uses Crowd, Confluence, and Jira, all of which are affected. The Data Center version, which we don't use, will continue.
 
 
    
@@ -151,6 +151,7 @@ Will some sort of Rubin URL be used?
 Links
 =================
 - https://www.atlassian.com/blog/announcements/journey-to-cloud
+- https://www.atlassian.com/migration/faqs#data-center
 - https://www.atlassian.com/migration/faqs
 - https://www.atlassian.com/migration/cloud
 - https://www.atlassian.com/migration/cloud/guide/introduction/overview
