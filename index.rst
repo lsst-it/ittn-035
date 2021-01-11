@@ -81,6 +81,7 @@ Discussion Topics
 - The domain to register and what additional, yet to be acquired, domains
 - Organization and Project Management
 - Communicating Reason and Process to Migrate to Set Stakeholder Expectations
+- Procedures to be used when the Summit or Base are disconnected from the Internet should already been in place
 
 Apps
 ----
